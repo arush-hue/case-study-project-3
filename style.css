@@ -1,0 +1,25 @@
+body
+{
+    font-family: 'Otomanopee One', sans-serif;
+    background:black;
+    font-weight: bold;
+    color:white
+}
+.header_div
+{
+    background: white;
+    color: red;
+}
+.header_div img
+{
+    width: 100px;
+}
+.styling
+{
+    width:300px;
+}
+#hello
+{
+    color: yellow;
+    font-weight: bold;
+}

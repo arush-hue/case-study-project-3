@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>Case Study</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <center>
+            <div class="col-xs-12 header_div">
+                <h2>Image Identifying App</h2>&nbsp;<img src="logo.png">
+              </div>
+                  <div class="text_images_and_result">
+                      <li>
+                          <b>Test Image - </b><img src="Shoes.JPG" class="img-responsive">
+                        </li>
+                        <h5>Output on <b>Wolfram- </b><span id="hello">Shoes</span></h5>
+                        <h5>Output on <b>Mobile Net model- </b><span id="hello">Running Shoes</span></h5>
+
+                        <div class="result">
+                            <h4>Result-</h4>
+                            <br>
+                            <h4>Mobile Net Model is more accurate.</h4>
+                        </div>
+                  </div>
+                  <br><br><br>
+                  <div class="text_images_and_result">
+                    <li>
+                        <b>Test Image - </b><img src="Bed.JPG" class="img-responsive">
+                      </li>
+                      <h5>Output on <b>Wolfram- </b><span id="hello">Bed</span></h5>
+                      <h5>Output on <b>Mobile Net model- </b><span id="hello">wallet, billfold, notecase, pocketbook</span></h5>
+
+                      <div class="result">
+                          <h4>Result-</h4>
+                          <br>
+                          <h4>Wolfram is more accurate.</h4>
+                      </div>
+                </div>
+                <br><br><br>
+                <div class="text_images_and_result">
+                  <li>
+                      <b>Test Image - </b><img src="BottleJPG.JPG" class="img-responsive styling">
+                    </li>
+                    <h5>Output on <b>Wolfram- </b><span id="hello">Bottle</span></h5>
+                    <h5>Output on <b>Mobile Net model- </b><span id="hello">lighter, light, igniter, ignitor</span></h5>
+
+                    <div class="result">
+                        <h4>Result-</h4>
+                        <br>
+                        <h4>Wolfram is more accurate.</h4>
+                    </div>
+              </div>
+              <hr>
+              <div>
+                  <label>I have tested 3 images <br> <b id="hello">Mobilenet</b> has predicted 1 image out of them correctly. And <b id="hello">Wolfram Project</b> has predicted 2 images out of 3 correctly. So according to my case study <b id="hello">Wolfram</b> is more accurate.</label>
+              </div>
+              <hr>
+              <div class="copy_right_footer">
+                Developed by- Arush Sharma
+              </div>
+        </center>
+        <script src="main.js"></script>
+    </body>
+</html>
